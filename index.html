@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For host travel agencies with up to 24 advisors: supplier commission statements matched to bookings, unpaid commissions chased, splits done.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Host Commission Desk</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Host Commission Desk</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Supplier statements matched to advisor bookings — unclaimed commissions found, splits calculated</h1>
-    <p class="sub">For small host travel agencies: import supplier commission statements and your advisors' bookings, see which commissions arrived, which are short and which never came, and pay each advisor the right split — every month, without spreadsheets.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For small host travel agencies</p>
+      <h1 class="rise" style="--i:1" data-len="long">Supplier statements matched to advisor bookings&nbsp;<span class="soft">— unclaimed commissions found, splits calculated</span></h1>
+      <p class="rise" style="--i:2">For small host travel agencies: import supplier commission statements and your advisors' bookings, see which commissions arrived, which are short and which never came, and pay each advisor the right split — every month, without spreadsheets.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="158" font-size="36" fill="#0a1524" font-weight="600">Host Commission Desk</text><line x1="120" y1="204" x2="1080" y2="204" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="246" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="280" font-size="30" fill="#0a1524">Statement</text><rect x="120" y="358" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="392" font-size="30" fill="#0a1524">Unclaimed</text><rect x="120" y="470" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="504" font-size="30" fill="#0a1524">Splits</text><rect x="730" y="250" width="340" height="410" fill="#dfe8f7" rx="20" /><text x="760" y="318" font-size="32" fill="#0a1524" font-weight="600">Monthly</text><rect x="770" y="450" width="46" height="150" fill="#ffffff" rx="8" /><rect x="840" y="500" width="46" height="100" fill="#ffffff" rx="8" /><rect x="910" y="390" width="46" height="210" fill="#12397a" rx="8" /><rect x="980" y="520" width="46" height="80" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Small host travel agencies</dd></div>
+      <div><dt>Match</dt><dd>Matched to advisor bookings</dd></div>
+      <div><dt>Splits</dt><dd>Pay each advisor</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Statement matching</b><span>Each line of a supplier statement matched to the advisor's booking: paid, short or missing.</span><br><a class="btn" href="price.html" data-ev="feature_matching">I need this</a></div>
-      <div class="card"><b>Unclaimed commissions</b><span>Bookings with no commission after travel, listed by supplier with the details to claim them.</span><br><a class="btn" href="price.html" data-ev="feature_unclaimed">I need this</a></div>
-      <div class="card"><b>Advisor splits</b><span>Each advisor's share by their split level, with a statement they can check.</span><br><a class="btn" href="price.html" data-ev="feature_splits">I need this</a></div>
-      <div class="card"><b>Monthly report</b><span>Commission received, expected and outstanding by supplier and by advisor.</span><br><a class="btn" href="price.html" data-ev="feature_reports">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="90" width="280" height="420" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="90" width="280" height="420" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="84" y="150" font-size="28" fill="#0a1524" font-weight="600">Statement</text><text x="484" y="150" font-size="28" fill="#566174">paid</text><rect x="90" y="210" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="490" y="210" width="200" height="16" fill="#b9c3d2" rx="8" /><line x1="300" y1="218" x2="440" y2="218" stroke="#dde2ea" stroke-width="4" /><rect x="90" y="274" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="490" y="274" width="200" height="16" fill="#b9c3d2" rx="8" /><line x1="300" y1="282" x2="440" y2="282" stroke="#12397a" stroke-width="4" /><rect x="90" y="338" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="490" y="338" width="200" height="16" fill="#b9c3d2" rx="8" /><line x1="300" y1="346" x2="440" y2="346" stroke="#dde2ea" stroke-width="4" /><rect x="90" y="402" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="490" y="402" width="200" height="16" fill="#b9c3d2" rx="8" /><line x1="300" y1="410" x2="440" y2="410" stroke="#dde2ea" stroke-width="4" /></svg></div>
+        <h3>Statement matching</h3><p>Each line of a supplier statement matched to the advisor's booking: paid, short or missing.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_matching">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Unclaimed commissions</text><rect x="110" y="196" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,218 128,228 144,208" fill="none" stroke="#12397a" stroke-width="4" /><text x="174" y="228" font-size="30" fill="#0a1524">missing</text><rect x="110" y="272" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,294 128,304 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="284" width="320" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="348" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,370 128,380 144,360" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="360" width="250" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="174" y="436" width="320" height="18" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Unclaimed commissions</h3><p>Bookings with no commission after travel, listed by supplier with the details to claim them.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_unclaimed">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Advisor splits</text><text x="110" y="192" font-size="28" fill="#566174">split level</text><line x1="140" y1="470" x2="640" y2="470" stroke="#b9c3d2" stroke-width="3" /><rect x="160" y="360" width="64" height="110" fill="#dfe8f7" rx="8" /><rect x="280" y="300" width="64" height="170" fill="#dfe8f7" rx="8" /><rect x="400" y="384" width="64" height="86" fill="#dfe8f7" rx="8" /><rect x="520" y="270" width="64" height="200" fill="#12397a" rx="8" /></svg></div>
+        <h3>Advisor splits</h3><p>Each advisor's share by their split level, with a statement they can check.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_splits">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Monthly report</text><text x="110" y="196" font-size="28" fill="#566174">outstanding</text><circle cx="640" cy="128" r="34" fill="#dfe8f7" /><polyline points="624,128 634,142 656,112" fill="none" stroke="#12397a" stroke-width="4" /><rect x="110" y="250" width="400" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="308" width="280" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="366" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="220" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Monthly report</h3><p>Commission received, expected and outstanding by supplier and by advisor.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_reports">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Host agency with 14 advisors. September: 3 cruise line statements and 2 tour operator statements imported, 186 bookings matched. 9 commissions short, 4 missing after travel — claims prepared. Splits calculated for all advisors, one advisor moves to a higher split level next month.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Host agency with 14 advisors. September: 3 cruise line statements and 2 tour operator statements imported, 186 bookings matched. 9 commissions short, 4 missing after travel — claims prepared. Splits calculated for all advisors, one advisor moves to a higher split level next month.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="180" y1="150" x2="1020" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="90" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="240" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">14 advisors</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="450" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="600" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">September</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><rect x="810" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="960" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Splits</text><rect x="120" y="290" width="960" height="430" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="370" font-size="36" fill="#0a1524" font-weight="600">Monthly report</text><text x="170" y="440" font-size="30" fill="#566174">outstanding</text><rect x="170" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="270" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="370" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="470" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="570" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="670" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A host travel agency gives independent advisors its supplier agreements and accreditation and receives the commissions on their bookings. Each month suppliers send statements — cruise lines, tour operators, hotel programs — and someone at the host has to check them against the bookings the advisors reported, find commissions that were short or never came, and pay every advisor the share agreed in the contract.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A host travel agency gives independent advisors its supplier agreements and accreditation and receives the commissions on their bookings. Each month suppliers send statements — cruise lines, tour operators, hotel programs — and someone at the host has to check them against the bookings the advisors reported, find commissions that were short or never came, and pay every advisor the share agreed in the contract.</p>
     <p>In a small host this is usually done in spreadsheets by the owner, and it takes days. Platforms for advisors and agencies offer commission reconciliation as part of a wider package priced per seat. Host Commission Desk does only this job, for hosts with up to two dozen advisors.</p>
     <p>Advisors report their bookings in a simple form or upload them in bulk: supplier, confirmation number, client, travel dates and the expected commission. Supplier statements are imported as files. The service matches each statement line to a booking by confirmation number, name and dates, and marks every booking as paid in full, short or missing.</p>
     <p>Bookings that should have paid after travel but did not are listed as unclaimed commissions, by supplier, with the details the supplier will ask for when you claim them. As claims are paid, they close automatically on the next statement.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Setting up takes an afternoon. You add your advisors with their split levels, your suppliers and the statement formats they send. Past bookings can be imported from a spreadsheet so that commissions already expected are tracked from the first month. Advisors get a login where they report bookings and see their own commission statements, and nothing else.</p>
     <p>Each month the owner opens a dashboard with three numbers: commission received, commission expected and commission overdue. Clicking any of them shows the bookings behind it, so a call to a supplier starts with the exact confirmation numbers instead of a guess.</p>
     <p>The service works with the bookings and statements you provide. Your agreements with suppliers and advisors define commissions and splits; we only calculate and track them. We are not a host agency and do not receive or hold commissions.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is this for?</h3>
-    <p>Small host travel agencies with up to about two dozen independent advisors.</p>
-    <h3>How are supplier statements imported?</h3>
-    <p>As the files suppliers send — the service reads the statement lines and matches them to bookings.</p>
-    <h3>Can it handle different split levels?</h3>
-    <p>Yes. Each advisor's split is calculated by the level, caps and fees you set in your program.</p>
-    <h3>Do you collect commissions for us?</h3>
-    <p>No. We match, track and prepare claims; commissions are paid to your agency as before.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether host agencies need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is this for?</h3><p>Small host travel agencies with up to about two dozen independent advisors.</p></div>
+      <div class="split flip"><h3>How are supplier statements imported?</h3><p>As the files suppliers send — the service reads the statement lines and matches them to bookings.</p></div>
+      <div class="split flip"><h3>Can it handle different split levels?</h3><p>Yes. Each advisor's split is calculated by the level, caps and fees you set in your program.</p></div>
+      <div class="split flip"><h3>Do you collect commissions for us?</h3><p>No. We match, track and prepare claims; commissions are paid to your agency as before.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether host agencies need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Import your first statement</h2>
-    <p><label>Advisors in your host agency<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 5</option><option>6–12</option><option>13–24</option><option>More than 24</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Import a statement</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Import your first statement</h2>
+    </div>
+    <div class="tile stack">
+      <label>Advisors in your host agency<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 5</option><option>6–12</option><option>13–24</option><option>More than 24</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Import a statement</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Host Commission Desk</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Reconciliation and calculation only. Not a host agency; we do not receive or hold commissions. Splits follow your own agreements.</p>
+  <p>Reconciliation and calculation only. Not a host agency; we do not receive or hold commissions. Splits follow your own agreements.</p>
 </div></footer>
 
 </body>
